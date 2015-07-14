@@ -12,8 +12,8 @@
 extern PIDType PIDVelocity, PIDPosition;
 extern uint32_t PIDVerLoop;
 
-int32_t Position = 0;
-int32_t Speed = 0, Speedtemp = 0;
+int32_t Position = 1;
+
 
 
 int32_t set = 0;
