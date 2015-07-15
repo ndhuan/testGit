@@ -22,7 +22,7 @@ int16_t MaxSpeed = 90;
 
 void HBridgeEnable(void)
 {
-	GPIOPinWrite(ENABLE_PORT, ENABLE_PIN, 0xFF);
+	GPIOPinWrite(ENABLE_PORT, ENABLE_PIN, 0);
 }
 
 void HBridgeDisable(void)
