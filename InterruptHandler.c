@@ -10,9 +10,9 @@
 #include "driverlib/rom.h"
 
 extern PIDType PIDVelocity, PIDPosition;
-extern uint32_t PIDVerLoop;
 
-int32_t Position = 1;
+
+int32_t Position = 12345;
 
 
 
