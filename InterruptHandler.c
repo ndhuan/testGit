@@ -9,10 +9,10 @@
 #include "driverlib/qei.h"
 #include "driverlib/rom.h"
 
-extern PIDType PIDVelocity, PIDPosition;
+extern PIDType PIDVelocity;
 
 
-int32_t Position = 12345;
+
 
 
 
