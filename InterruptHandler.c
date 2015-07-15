@@ -9,10 +9,10 @@
 #include "driverlib/qei.h"
 #include "driverlib/rom.h"
 
-extern PIDType PIDVelocity, PIDPosition;
-extern uint32_t PIDVerLoop;
+extern PIDType PIDVelocity;
 
-int32_t Position = 1;
+
+
 
 
 
@@ -22,7 +22,7 @@ int16_t MaxSpeed = 90;
 
 void HBridgeEnable(void)
 {
-	GPIOPinWrite(ENABLE_PORT, ENABLE_PIN, 0xFF);
+	GPIOPinWrite(ENABLE_PORT, ENABLE_PIN, 0);
 }
 
 void HBridgeDisable(void)
