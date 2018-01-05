@@ -3,8 +3,9 @@ Process image data and communicate with Ardupilot via UDP socket.
 
 To build source code, run following commands:
 
-
->cd FlyMew_ImageProcessing
->cmake .
->make
+```
+cd FlyMew_ImageProcessing
+cmake .
+make
+```
 
